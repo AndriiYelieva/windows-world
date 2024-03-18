@@ -1,0 +1,22 @@
+@import "../../styles/main.scss";
+
+.notFound {
+  margin: 120px 140px;
+
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+
+  &__link {
+    padding: 8px 10px;
+    color: $color-blue;
+    border: 1px solid black;
+    border-radius: 4px;
+    text-decoration: none;
+
+    &:hover {
+      color: $color-white;
+      background-color: $color-blue;
+    }
+  }
+}
