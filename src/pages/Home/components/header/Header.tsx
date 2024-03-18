@@ -6,8 +6,9 @@ import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 import './Header.scss';
 
-import { Logo } from '../../../../components';
+import { Nav } from '../../../../components';
 import home from "../../../../images/header-home.jpg"
+import { Link } from 'react-router-dom';
 
 const testArray = [
   {
@@ -36,7 +37,7 @@ export const Header = () => {
 
   return (
     <header className="header">
-      <Logo />
+      <Nav />
 
       <button
         type="button"
@@ -54,7 +55,6 @@ export const Header = () => {
           nextEl: '.swiper-button-next',
         }}
         modules={[Pagination, Navigation]}
-        className="header__swiper"
       >
         {testArray.map(baner => (
           <SwiperSlide key={baner.id}>
@@ -71,6 +71,23 @@ export const Header = () => {
         className="swiper-button-next"
         aria-label="Next slide"
       />
+
+      <div className="header__title">
+        <h1 className="header__title--name">
+          Discover a World of Windows and Doors at Windows World!
+        </h1>
+
+        <p className="header__title--description">
+          Elevate your living spaces with our exquisite selection of premium windows and doors.
+        </p>
+      </div>
+
+      <Link
+        to="/windows-world/services"
+        className="header__link"
+      >
+        Learn More
+      </Link>
     </header>
   );
 }

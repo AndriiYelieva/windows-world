@@ -1,2 +1,1 @@
-export { Logo } from "./logo/Logo"
-export { Navigation } from "./navigation/Navigation"
+export { Nav } from "./navigation/Navigation"

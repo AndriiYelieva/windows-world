@@ -1,3 +1,89 @@
+@import "../../styles/main.scss";
+
+.nav {
+  position: absolute;
+  z-index: 10;
+  width: 100%;
+}
+
+.logo {
+  margin: 58px 0 0 120px;
+  display: flex;
+  gap: 14px;
+
+  font-family: 'Century Gothic', sans-serif;
+  font-weight: 400;
+
+  &__link {
+    height: 64px;
+    width: 64px;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../../images/logo.png");
+
+    &:hover {
+      transform: scale(1.1);
+    }
+  }
+
+  &__wrapper {
+    &--title {
+      color: $color-blue;
+      font-size: 32px;
+      font-weight: 400;
+      line-height: 39px;
+      letter-spacing: 0em;
+      text-align: left;
+      text-decoration: none;
+    }
+
+    &--text {
+      color: $color-blue-2;
+      font-size: 18px;
+      font-weight: 700;
+      line-height: 22px;
+      letter-spacing: 0em;
+      text-align: left;
+      text-decoration: none;
+    }
+  }
+}
+
 .navigation {
-  
+  margin-top: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 44px;
+
+  height: 50px;
+  background-color: $color-white;
+
+  &__link {
+    height: 55px;
+    padding: 0 10px;
+    display: flex;
+    align-items: center;
+
+    color: $color-blue;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    text-decoration: none;
+
+    &:hover {
+      color: $color-white;
+      background-color: $color-blue;
+    }
+
+    &--active {
+      font-weight: 700;
+    }
+  }
+
+
 }
