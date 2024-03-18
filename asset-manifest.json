@@ -1,15 +1,19 @@
 {
   "files": {
-    "main.css": "/windows-world/static/css/main.f855e6bc.css",
-    "main.js": "/windows-world/static/js/main.1c68fa0e.js",
+    "main.css": "/windows-world/static/css/main.c094e347.css",
+    "main.js": "/windows-world/static/js/main.ffc49890.js",
     "static/js/453.dd0adc8d.chunk.js": "/windows-world/static/js/453.dd0adc8d.chunk.js",
+    "static/media/header-home.jpg": "/windows-world/static/media/header-home.a578a7a2127fad79cb32.jpg",
+    "static/media/logo.png": "/windows-world/static/media/logo.7f21eda3afac4feea982.png",
     "index.html": "/windows-world/index.html",
-    "main.f855e6bc.css.map": "/windows-world/static/css/main.f855e6bc.css.map",
-    "main.1c68fa0e.js.map": "/windows-world/static/js/main.1c68fa0e.js.map",
+    "static/media/arrow-left.svg": "/windows-world/static/media/arrow-left.d5ba2283268fd5cda784.svg",
+    "static/media/arrow-right.svg": "/windows-world/static/media/arrow-right.53198f2502dde034021e.svg",
+    "main.c094e347.css.map": "/windows-world/static/css/main.c094e347.css.map",
+    "main.ffc49890.js.map": "/windows-world/static/js/main.ffc49890.js.map",
     "453.dd0adc8d.chunk.js.map": "/windows-world/static/js/453.dd0adc8d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f855e6bc.css",
-    "static/js/main.1c68fa0e.js"
+    "static/css/main.c094e347.css",
+    "static/js/main.ffc49890.js"
   ]
 }
