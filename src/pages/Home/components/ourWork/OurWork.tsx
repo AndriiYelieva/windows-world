@@ -1,35 +1,6 @@
-import "./OurWork.scss";
-import marketExperience from "../../../../images/market-experience.png";
-import aboutTheGuarantee from "../../../../images/about-the-guarantee.png";
-import wereToBuy from "../../../../images/were-to-buy.png";
 import { Link } from "react-router-dom";
-
-const arrayWork = [
-  {
-    id: 1,
-    title: "Market experience",
-    description: "Outstanding performance backed by a 10-Year Limited Warranty.",
-    link: "learn more",
-    href: "",
-    image: marketExperience,
-  },
-  {
-    id: 2,
-    title: "About the guarantee",
-    description: "We provide excellent quality and a multi-year warranty.",
-    link: "learn more",
-    href: "",
-    image: aboutTheGuarantee,
-  },
-  {
-    id: 3,
-    title: "Were to buy",
-    description: "Use the map to find a store near you.",
-    link: "Search",
-    href: "",
-    image: wereToBuy,
-  },
-]
+import { ourWorks } from "../../../../config";
+import "./OurWork.scss";
 
 export const OurWork = () => {
   return (
@@ -39,7 +10,7 @@ export const OurWork = () => {
       </h1>
 
       <ul className="work__cards">
-        {arrayWork.map(card => (
+        {ourWorks.map(card => (
           <li className="work__card" key={card.id}>
             <img
               src={card.image}

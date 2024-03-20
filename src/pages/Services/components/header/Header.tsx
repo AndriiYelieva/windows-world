@@ -1,7 +1,7 @@
 import './Header.scss';
 
 import { Nav } from '../../../../components';
-import banner from '../../../../images/banner-service.webp';
+import banner from "../../../../images/photos/banner-service.webp";
 
 export const Header = () => {
 

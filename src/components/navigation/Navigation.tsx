@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import classNames from "classnames";
 import "./Navigation.scss"
-import { navigation } from "../../date";
+import { navigation } from "../../config";
 
 export const Nav = () => {
   return (

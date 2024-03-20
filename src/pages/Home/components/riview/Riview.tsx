@@ -1,5 +1,5 @@
 import React from 'react';
-import { RiviewType } from '../../../../Types';
+import { RiviewType } from '../../../../types';
 import "./Riview.scss";
 
 type Props = {

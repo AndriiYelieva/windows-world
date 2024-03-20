@@ -8,7 +8,7 @@ import 'swiper/css/navigation';
 import './Header.scss';
 
 import { Nav } from '../../../../components';
-import { banners } from '../../../../date';
+import { banners } from '../../../../config';
 
 export const Header = () => {
 

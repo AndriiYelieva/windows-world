@@ -24,6 +24,10 @@
     color: $color-white;
     background-color: $color-blue;
 
+    &--title {
+      text-transform: uppercase;
+    }
+
     &--wrapper {
       display: flex;
       justify-content: center;
@@ -55,7 +59,7 @@
       font-weight: 700;
       line-height: 22.07px;
       text-align: left;
-    
+
       background-position: left;
       background-repeat: no-repeat;
     }

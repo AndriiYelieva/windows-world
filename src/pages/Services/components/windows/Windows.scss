@@ -49,15 +49,15 @@
     }
 
     &--futural {
-      background-image: url("../../../../images/futural-button.png");
+      background-image: url("../../../../images/photos/futural-button.png");
     }
 
     &--windowHd {
-      background-image: url("../../../../images/window-hd-button.png");
+      background-image: url("../../../../images/photos/window-hd-button.png");
     }
 
     &--whiteDouble {
-      background-image: url("../../../../images/white-double-button.png");
+      background-image: url("../../../../images/photos/white-double-button.png");
     }
   }
 
@@ -78,7 +78,7 @@
     background-color: $color-white;
     background-repeat: no-repeat;
     background-position: right;
-    background-image: url("../../../../images/svg/arrow-right.svg");
+    background-image: url("../../../../images/icons/arrow-right.svg");
 
     &:hover {
       border-bottom: 2px solid $color-blue;

@@ -1,5 +1,5 @@
 import "./Advantages.scss";
-import advantages from "../../../../images/advantages.png"
+import advantages from "../../../../images/photos/advantages.png"
 import { Link } from "react-router-dom";
 
 export const Advantages = () => {

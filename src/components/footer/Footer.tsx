@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
-import { navigation } from "../../date";
+import { navigation } from "../../config";
 import "./Footer.scss";
-import { footerCompanyLinks, footerSupportLinks, footerWindowLinks, networks } from "../../date/arrays";
+import { footerCompanyLinks, footerSupportLinks, footerWindowLinks, networks } from "../../config/config";
 
 export const Footer = () => {
   return (

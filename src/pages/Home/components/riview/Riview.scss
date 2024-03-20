@@ -46,11 +46,11 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    background-image: url("../../../../images/svg/star.svg");
+    background-image: url("../../../../images/icons/star.svg");
     border-radius: 0.5px;
     
     &--active {
-      background-image: url("../../../../images/svg/star-active.svg");
+      background-image: url("../../../../images/icons/star-active.svg");
     }
 
     &:last-child {

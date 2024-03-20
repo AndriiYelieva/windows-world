@@ -1,7 +1,7 @@
 import "./ServiceArea.scss";
-import serviceArea from "../../../../images/service-area.png"
-import window from "../../../../images/window.png"
 import { HaveAQuestion } from "../../../../components";
+import serviceArea from "../../../../images/photos/service-area.png"
+import window from "../../../../images/photos/window.png"
 
 export const ServiceArea = () => {
   return (

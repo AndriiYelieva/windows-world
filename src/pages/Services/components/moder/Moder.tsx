@@ -1,7 +1,7 @@
 import "./Moder.scss";
 
-import designPro from "../../../../images/design-pro.png"
-import trendsForWindows from "../../../../images/trends-for-windows.png"
+import designPro from "../../../../images/photos/design-pro.png"
+import trendsForWindows from "../../../../images/photos/trends-for-windows.png"
 import { HaveAQuestion } from "../../../../components";
 
 const arrayModer = [

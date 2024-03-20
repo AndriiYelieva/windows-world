@@ -1,25 +1,5 @@
+import { windowsService } from '../../../../config';
 import './Windows.scss';
-import futural from "../../../../images/futural.png";
-import whiteDouble from "../../../../images/white-double.png";
-import windowHd from "../../../../images/window-hd.png";
-
-const array = [
-  {
-    id: 1,
-    title: "futural",
-    image: futural,
-  },
-  {
-    id: 2,
-    title: "whiteDouble",
-    image: whiteDouble,
-  },
-  {
-    id: 3,
-    title: "windowHd",
-    image: windowHd,
-  },
-]
 
 export const Windows = () => {
   return (
@@ -34,7 +14,7 @@ export const Windows = () => {
       </div>
 
       <ul className="windows__list">
-        {array.map(card => (
+        {windowsService.map(card => (
           <li key={card.id} className="windows__card">
             <img
               src={card.image}

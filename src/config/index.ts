@@ -5,4 +5,8 @@ export {
   footerSupportLinks,
   footerWindowLinks,
   networks,
-} from "./arrays"
+  ourWorks,
+  services,
+  doors,
+  windowsService,
+} from "./config"
