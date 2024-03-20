@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Pagination, Navigation } from 'swiper/modules';
 
@@ -7,31 +8,7 @@ import 'swiper/css/navigation';
 import './Header.scss';
 
 import { Nav } from '../../../../components';
-import home from "../../../../images/header-home.jpg"
-import { Link } from 'react-router-dom';
-
-const testArray = [
-  {
-    id: 1,
-    name: "home",
-    image: home,
-  },
-  {
-    id: 2,
-    name: "home",
-    image: home,
-  },
-  {
-    id: 3,
-    name: "home",
-    image: home,
-  },
-  {
-    id: 4,
-    name: "home",
-    image: home,
-  }
-]
+import { banners } from '../../../../date';
 
 export const Header = () => {
 
@@ -56,11 +33,11 @@ export const Header = () => {
         }}
         modules={[Pagination, Navigation]}
       >
-        {testArray.map(baner => (
-          <SwiperSlide key={baner.id}>
+        {banners.map(banner => (
+          <SwiperSlide key={banner.id}>
             <img
-              src={baner.image}
-              alt={baner.name}
+              src={banner.image}
+              alt={banner.name}
               className="header__banner"
             />
           </SwiperSlide>

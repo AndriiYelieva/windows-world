@@ -1,0 +1,31 @@
+@import "../../../../styles/main.scss";
+
+.headerServices {
+  position: relative;
+  
+  &__banner {
+    width: 100%;
+    height: 100vh;
+  }
+
+  &__title {
+    position: absolute;
+    z-index: 11;
+
+    top: 390px;
+    left: 110px;
+
+    padding: 40px;
+    border-radius: 5px;
+
+    background-color: rgba($color-blue, 0.7);
+
+    color: $color-white;
+
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 49px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+}

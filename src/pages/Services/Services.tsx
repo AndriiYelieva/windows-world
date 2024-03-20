@@ -1,7 +1,15 @@
+import { Footer } from "../../components";
 import "./Services.scss";
+import { Doors, Header, Moder, Windows } from "./components";
 
 export const Services = () => {
   return (
-    <h1>Services</h1>
+    <>
+      <Header />
+      <Windows />
+      <Doors />
+      <Moder />
+      <Footer />
+    </>
   )
 }

@@ -3,7 +3,6 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
 import './App.scss';
 import { Home, NotFound, Services } from './pages';
-// import { Logo } from './Components';
 
 function App() {
   return (
