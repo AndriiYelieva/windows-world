@@ -1,7 +1,8 @@
 import { Link } from "react-router-dom";
-import { navigation } from "../../config";
+import { navigation, scrollToTop } from "../../config";
 import "./Footer.scss";
 import { footerCompanyLinks, footerSupportLinks, footerWindowLinks, networks } from "../../config/config";
+import classNames from "classnames";
 
 export const Footer = () => {
   return (
@@ -12,13 +13,25 @@ export const Footer = () => {
 
       <nav className="footer__navigation">
         {navigation.map(link => (
-          <Link
-            to={link.href}
-            className="footer__navigation--link"
-            key={link.id}
-          >
-            {link.title}
-          </Link>
+          link.isLocation === true
+            ? <Link
+              to={link.href}
+              className="navigation__link"
+              onClick={scrollToTop}
+            >
+              {link.title}
+            </Link>
+            : <a
+              href={link.href}
+              className={
+                classNames("navigation__link", {
+                  "navigation__link--active": false,
+                })
+              }
+              key={link.id}
+            >
+              {link.title}
+            </a>
         ))}
       </nav>
 
@@ -26,13 +39,12 @@ export const Footer = () => {
         <ul className="footer__list--links">
           {footerWindowLinks.map(item => (
             item.href !== null ?
-              <Link
+              <button
                 className="footer__list--link"
                 key={item.id}
-                to={item.href}
               >
                 {item.title}
-              </Link>
+              </button>
               : <li
                 className="footer__list--item"
                 key={item.id}
@@ -44,13 +56,12 @@ export const Footer = () => {
         <ul className="footer__list--links">
           {footerCompanyLinks.map(item => (
             item.href !== null ?
-              <Link
+              <button
                 className="footer__list--link"
                 key={item.id}
-                to={item.href}
               >
                 {item.title}
-              </Link>
+              </button>
               : <li
                 className="footer__list--item"
                 key={item.id}
@@ -62,13 +73,12 @@ export const Footer = () => {
         <ul className="footer__list--links">
           {footerSupportLinks.map(item => (
             item.href !== null ?
-              <Link
+              <button
                 className="footer__list--link"
                 key={item.id}
-                to={item.href}
               >
                 {item.title}
-              </Link>
+              </button>
               : <li
                 className="footer__list--item"
                 key={item.id}

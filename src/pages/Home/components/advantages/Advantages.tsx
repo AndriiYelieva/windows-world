@@ -15,13 +15,13 @@ export const Advantages = () => {
         </p>
         <div className="advantages__description--links">
           <Link
-            to='s'
+            to='/windows-world/services'
             className="advantages__description--link advantages__description--windows"
           >
             Windows
           </Link>
           <Link
-            to='s'
+            to='/windows-world/services'
             className="advantages__description--link advantages__description--doors"
           >
             Doors

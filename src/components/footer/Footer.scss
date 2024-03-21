@@ -62,11 +62,18 @@
     }
 
     &--link {
+      margin: 0;
+      padding: 0;
+
       color: $color-blue;
       font-size: 18px;
       font-weight: 400;
       line-height: 34.2px;
       text-decoration: none;
+      border: none;
+      text-align: left;
+
+      background-color: $color-white;
 
       &:hover {
         color: $color-white;
