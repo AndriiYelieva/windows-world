@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/windows-world/static/css/main.59aadec8.css",
-    "main.js": "/windows-world/static/js/main.d7f1fc19.js",
+    "main.css": "/windows-world/static/css/main.6f507377.css",
+    "main.js": "/windows-world/static/js/main.647d75d6.js",
     "static/media/trends-for-windows.png": "/windows-world/static/media/trends-for-windows.9cba6e08c26b3aafe3f7.png",
     "static/media/about-us.png": "/windows-world/static/media/about-us.d9bd3f6a8ed9a4f9753c.png",
     "static/media/advantages.png": "/windows-world/static/media/advantages.317bea74426864df1a29.png",
@@ -10,7 +10,6 @@
     "static/media/panorama-window.png": "/windows-world/static/media/panorama-window.4df050518b7b69902aec.png",
     "static/media/header-home.jpg": "/windows-world/static/media/header-home.a578a7a2127fad79cb32.jpg",
     "static/media/interior-doors.png": "/windows-world/static/media/interior-doors.c73c206d10d20ccbd5f6.png",
-    "static/media/interior-doors-service.png": "/windows-world/static/media/interior-doors-service.60cc3359f9896102c4d9.png",
     "static/media/were-to-buy.png": "/windows-world/static/media/were-to-buy.6818921fc37a5806dbe6.png",
     "static/media/exterior-doors.png": "/windows-world/static/media/exterior-doors.cb7633216782390c2941.png",
     "static/media/patio-doors-service.png": "/windows-world/static/media/patio-doors-service.f09b31575fc005425cf7.png",
@@ -37,11 +36,11 @@
     "static/media/star-active.svg": "/windows-world/static/media/star-active.9aa90e8fecb2d0ec745c.svg",
     "static/media/arrow-left.svg": "/windows-world/static/media/arrow-left.d5ba2283268fd5cda784.svg",
     "static/media/arrow-right.svg": "/windows-world/static/media/arrow-right.53198f2502dde034021e.svg",
-    "main.59aadec8.css.map": "/windows-world/static/css/main.59aadec8.css.map",
-    "main.d7f1fc19.js.map": "/windows-world/static/js/main.d7f1fc19.js.map"
+    "main.6f507377.css.map": "/windows-world/static/css/main.6f507377.css.map",
+    "main.647d75d6.js.map": "/windows-world/static/js/main.647d75d6.js.map"
   },
   "entrypoints": [
-    "static/css/main.59aadec8.css",
-    "static/js/main.d7f1fc19.js"
+    "static/css/main.6f507377.css",
+    "static/js/main.647d75d6.js"
   ]
 }
