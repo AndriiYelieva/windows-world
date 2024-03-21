@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 export const Advantages = () => {
   return (
-    <section className="advantages">
+    <section className="advantages" id="advantages">
       <img src={advantages} alt="advantages" className="advantages__photo" />
       <div className="advantages__description">
         <h1 className="advantages__description--title">

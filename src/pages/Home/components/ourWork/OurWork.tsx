@@ -4,7 +4,7 @@ import "./OurWork.scss";
 
 export const OurWork = () => {
   return (
-    <section className="work">
+    <section className="work" id="our-work">
       <h1 className="work__title">
         Our Work
       </h1>

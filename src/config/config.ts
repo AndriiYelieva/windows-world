@@ -49,42 +49,50 @@ export const navigation = [
   {
     id: 1,
     title: "Home page",
-    href: '/windows-world',
+    href: '/',
+    isLocation: true,
   },
   {
     id: 2,
     title: "About us",
-    href: '/windows-world/#about-us',
+    href: '/#about-us',
+    isLocation: false,
   },
   {
     id: 3,
     title: "Advantages",
-    href: '/windows-world/#advantages',
+    href: '/#advantages',
+    isLocation: false,
   },
   {
     id: 4,
     title: "Services",
-    href: '/windows-world/services',
+    href: '/services',
+    isLocation: true,
   },
   {
     id: 5,
     title: "Our work",
-    href: 'windows-world/#our-work',
+    href: '#our-work',
+    isLocation: false,
   },
   {
     id: 6,
     title: "Reviews",
-    href: '/windows-world/#reviews',
+    href: '/#reviews',
+    isLocation: false,
   },
   {
     id: 7,
     title: "Service area",
-    href: '/windows-world/#service-area',
+    href: '/#service-area',
+    isLocation: false,
   },
   {
     id: 8,
     title: "Contact us",
-    href: '/windows-world/#contact-us',
+    href: '/#contact-us',
+    isLocation: false,
   },
 ]
 
@@ -199,6 +207,27 @@ export const ourWorks = [
     link: "Search",
     href: "",
     image: wereToBuy,
+  },
+]
+
+export const reviews = [
+  {
+    id: 1,
+    title: "Carl Lourens",
+    rating: 4,
+    description: "The whole process, from consultation to installation, was seamless. I'm extremely satisfied with my investment and would highly recommend them.",
+  },
+  {
+    id: 2,
+    title: "Carl Lourens",
+    rating: 5,
+    description: "The installation was quick, and now my house feels much more comfortable and energy-efficient. Thank you!",
+  },
+  {
+    id: 3,
+    title: "Carl Lourens",
+    rating: 5,
+    description: "The quality is exceptional, and the installation process was smooth and efficient.",
   },
 ]
 

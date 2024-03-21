@@ -5,7 +5,7 @@ import window from "../../../../images/photos/window.png"
 
 export const ServiceArea = () => {
   return (
-    <section className="serviceArea">
+    <section className="serviceArea" id="service-area">
       <h1 className="serviceArea__title">Service rea</h1>
       <div className="serviceArea__wrapper">
         <div className="serviceArea__description">

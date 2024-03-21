@@ -1,6 +1,6 @@
 import "./Home.scss";
 import { Footer } from "../../components";
-import { AboutUs, Advantages, Header, OurWork, Riviews, Service, ServiceArea } from "./components";
+import { AboutUs, Advantages, Header, OurWork, Reviews, Service, ServiceArea } from "./components";
 
 export const Home = () => {
   return (
@@ -10,7 +10,7 @@ export const Home = () => {
       <Advantages />
       <Service />
       <OurWork />
-      <Riviews />
+      <Reviews />
       <ServiceArea />
       <Footer />
     </>

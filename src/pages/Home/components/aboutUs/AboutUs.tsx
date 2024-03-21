@@ -2,8 +2,12 @@ import "./AboutUs.scss";
 import about from "../../../../images/photos/about-us.png"
 
 export const AboutUs = () => {
+
   return (
-    <section className="about" id="#about-us">
+    <section
+      className="about"
+      id="about-us"
+    >
       <h1 className="about__title">About us</h1>
       <div className="about__wrapper">
         <div className="about__description">
