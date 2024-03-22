@@ -1,3 +1,4 @@
+import React from 'react'
 import "./ServiceArea.scss";
 import { HaveAQuestion } from "../../../../components";
 import serviceArea from "../../../../images/photos/service-area.png"
@@ -19,7 +20,7 @@ export const ServiceArea = () => {
               NEED PROJECT HELP?
             </h2>
             <p className="serviceArea__description--account">
-              Tell us about your project and we'll connect you with a professional.
+              Tell us about your project and we&lsquo;ll connect you with a professional.
             </p>
             <button
               className="serviceArea__description--link"

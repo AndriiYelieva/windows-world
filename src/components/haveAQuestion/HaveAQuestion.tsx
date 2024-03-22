@@ -1,3 +1,4 @@
+import React from 'react';
 import "./HaveAQuestion.scss";
 
 export const HaveAQuestion = () => {

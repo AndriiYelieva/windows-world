@@ -1,4 +1,4 @@
-export { Header } from "./header/Header";
-export { Windows } from "./windows/Windows";
-export { Doors } from "./doors/Doors";
-export { Moder } from "./moder/Moder";
+export { Header } from "./Header/Header";
+export { Windows } from "./Windows/Windows";
+export { Doors } from "./Doors/Doors";
+export { Moder } from "./Moder/Moder";

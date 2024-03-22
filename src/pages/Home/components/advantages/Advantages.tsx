@@ -1,3 +1,4 @@
+import React from 'react'
 import "./Advantages.scss";
 import advantages from "../../../../images/photos/advantages.png"
 import { Link } from "react-router-dom";

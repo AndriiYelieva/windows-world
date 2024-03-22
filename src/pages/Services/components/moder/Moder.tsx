@@ -1,3 +1,4 @@
+import React from 'react'
 import "./Moder.scss";
 
 import designPro from "../../../../images/photos/design-pro.png"

@@ -1,7 +1,7 @@
-export { AboutUs } from "./aboutUs/AboutUs";
-export { Advantages } from "./advantages/Advantages";
-export { Header } from "./header/Header";
-export { Service } from "./service/Service";
-export { OurWork } from "./ourWork/OurWork";
-export { Reviews } from "./riviews/Reviews";
-export { ServiceArea } from "./serviceArea/ServiceArea";
+export { AboutUs } from "./AboutUs/AboutUs";
+export { Advantages } from "./Advantages/Advantages";
+export { Header } from "./Header/Header";
+export { Service } from "./Service/Service";
+export { OurWork } from "./OurWork/OurWork";
+export { Reviews } from "./Riviews/Reviews";
+export { ServiceArea } from "./ServiceArea/ServiceArea";

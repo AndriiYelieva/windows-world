@@ -1,3 +1,3 @@
-export { Nav } from "./navigation/Navigation"
-export { Footer } from "./footer/Footer"
-export { HaveAQuestion } from "./haveAQuestion/HaveAQuestion"
+export { Nav } from "./Navigation/Navigation"
+export { Footer } from "./Footer/Footer"
+export { HaveAQuestion } from "./HaveAQuestion/HaveAQuestion"

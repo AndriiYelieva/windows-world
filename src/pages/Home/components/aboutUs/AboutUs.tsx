@@ -1,3 +1,4 @@
+import React from 'react'
 import "./AboutUs.scss";
 import about from "../../../../images/photos/about-us.png"
 

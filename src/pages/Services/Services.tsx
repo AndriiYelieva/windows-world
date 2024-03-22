@@ -1,3 +1,4 @@
+import React from 'react';
 import { Footer } from "../../components";
 import "./Services.scss";
 import { Doors, Header, Moder, Windows } from "./components";

@@ -1,3 +1,4 @@
+import React from 'react';
 import { Link } from "react-router-dom";
 import { navigation, scrollToTop } from "../../config";
 import "./Footer.scss";
@@ -18,6 +19,7 @@ export const Footer = () => {
               to={link.href}
               className="navigation__link"
               onClick={scrollToTop}
+              key={link.id}
             >
               {link.title}
             </Link>

@@ -1,3 +1,4 @@
+import React from 'react';
 import { services } from "../../../../config";
 import "./Service.scss";
 

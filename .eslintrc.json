@@ -1,0 +1,21 @@
+{
+  "parser": "@typescript-eslint/parser",
+  "plugins": ["@typescript-eslint", "prettier"],
+  "extends": [
+      "eslint:recommended",
+      "plugin:@typescript-eslint/recommended",
+      "plugin:react/recommended",
+      "plugin:prettier/recommended"
+  ],
+  "rules": {
+  },
+  "overrides": [
+    {
+      "files": ["*.css", "*.scss"], // Вкажіть файли, для яких буде використовуватися Stylelint
+      "extends": ["stylelint-config-standard"], // Розширення Stylelint
+      "plugins": ["stylelint", "prettier/stylelint"], // Плагіни Stylelint та Prettier
+      "rules": {
+      }
+    }
+  ]
+}

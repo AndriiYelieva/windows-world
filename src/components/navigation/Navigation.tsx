@@ -1,3 +1,4 @@
+import React from 'react';
 import { Link, NavLink, useLocation } from "react-router-dom";
 import classNames from "classnames";
 import "./Navigation.scss"
@@ -40,6 +41,7 @@ export const Nav = () => {
                   "navigation__link--active": isActive,
                 })
               }
+              key={link.id}
             >
               {link.title}
             </NavLink>

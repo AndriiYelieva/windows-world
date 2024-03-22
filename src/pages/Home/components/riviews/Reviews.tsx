@@ -1,6 +1,6 @@
-// import 'starability/starability-minified.css';
+import React from 'react';
 import { reviews } from "../../../../config";
-import { Review } from "../riview/Review";
+import { Review } from "../Riview/Review";
 import "./Reviews.scss";
 
 export const Reviews = () => {
@@ -12,7 +12,7 @@ export const Reviews = () => {
 
       <ul className="reviews__list">
         {reviews.map(review => (
-          <Review  review={review} />
+          <Review  review={review} key={review.id}/>
         ))}
       </ul>
     </section>

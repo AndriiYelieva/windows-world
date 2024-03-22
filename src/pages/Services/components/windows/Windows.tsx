@@ -1,3 +1,4 @@
+import React from 'react'
 import { windowsService } from '../../../../config';
 import './Windows.scss';
 

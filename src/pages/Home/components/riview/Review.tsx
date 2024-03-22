@@ -1,4 +1,4 @@
-import React from 'react';
+import React from 'react'
 import { ReviewType } from '../../../../types';
 import "./Review.scss";
 

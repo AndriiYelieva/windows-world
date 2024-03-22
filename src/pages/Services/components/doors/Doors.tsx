@@ -1,3 +1,4 @@
+import React from 'react'
 import { doors } from '../../../../config';
 import './Doors.scss';
 

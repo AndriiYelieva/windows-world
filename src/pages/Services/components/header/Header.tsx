@@ -1,3 +1,4 @@
+import React from 'react'
 import './Header.scss';
 
 import { Nav } from '../../../../components';
@@ -6,7 +7,7 @@ import banner from "../../../../images/photos/banner-service.webp";
 export const Header = () => {
 
   return (
-    <header className="headerServices">
+    <header className="headerServices">stylelint 
       <Nav />
       <img
         src={banner}
