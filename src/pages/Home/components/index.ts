@@ -1,7 +1,4 @@
-export { AboutUs } from "./AboutUs/AboutUs";
-export { Advantages } from "./Advantages/Advantages";
+export { Gallery } from "./Gallery/Gallery";
+export { Handmade } from "./Handmade/Handmade";
 export { Header } from "./Header/Header";
-export { Service } from "./Service/Service";
-export { OurWork } from "./OurWork/OurWork";
-export { Reviews } from "./Riviews/Reviews";
-export { ServiceArea } from "./ServiceArea/ServiceArea";
+export { FAQ } from "./FAQ/FAQ";

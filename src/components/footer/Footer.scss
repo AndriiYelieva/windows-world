@@ -1,134 +1,142 @@
 @import "../../styles/main.scss";
 
 .footer {
-  margin-top: 150px;
-  position: relative;
-  height: 100vh;
+  margin-top: 100px;
+  padding: 30px 0 120px;
+  width: 100%;
 
-  &__title {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 
-    width: 100%;
-    height: 190px;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../../images/photos/header-home.png");
 
-    color: $color-white;
-    font-size: 40px;
-    font-weight: 400;
-    line-height: 49.04px;
-    background-color: $color-blue;
-  }
+  &__logo {
+    height: 32px;
+    width: 1000px;
+    position: relative;
 
-  &__navigation {
-    margin-top: 64px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    background-image: url("../../images/icons/logo.svg");
+    background-repeat: no-repeat;
+    background-position: center;
 
-    gap: 55px;
+    &::before {
+      content: "";
+      position: absolute;
+      top: 50%;
+      left: -45px;
+      width: 50%;
+      height: 1px;
+      background-color: #FFFFFF;
+    }
 
-    &--link {
-      height: 55px;
-      padding: 0 10px;
-      display: flex;
-      align-items: center;
-
-      color: $color-blue;
-      font-size: 18px;
-      font-weight: 400;
-      line-height: 22px;
-      letter-spacing: 0em;
-      text-align: left;
-      text-decoration: none;
-
-      &:hover {
-        color: $color-white;
-        background-color: $color-blue;
-      }
+    &::after {
+      content: "";
+      position: absolute;
+      top: 50%;
+      right: -45px;
+      width: 50%;
+      height: 1px;
+      background-color: #FFFFFF;
     }
   }
 
-  &__list {
-    margin-top: 76px;
-
+  &__links {
     display: flex;
-    justify-content: space-evenly;
+    margin-top: 42px;
+    gap: 70px;
 
-    &--links {
+    &--title {
+      color: $color-white;
+      font-style: 24px;
+      text-align: left;
+      letter-spacing: 0px;
+    }
+
+    &--list {
+      margin-top: 35px;
       display: flex;
       flex-direction: column;
-      gap: 10px;
-    }
-
-    &--link {
-      margin: 0;
-      padding: 0;
-
-      color: $color-blue;
-      font-size: 18px;
-      font-weight: 400;
-      line-height: 34.2px;
-      text-decoration: none;
-      border: none;
-      text-align: left;
-
-      background-color: $color-white;
-
-      &:hover {
-        color: $color-white;
-        background-color: $color-blue;
-        transform: scale(1.05);
-      }
-
-      &::first-letter {
-        text-transform: uppercase;
-      }
+      align-items: start;
+      gap: 8px;
     }
 
     &--item {
-      color: $color-blue;
-      font-size: 18px;
-      line-height: 34.2px;
-      font-weight: 700;
+      color: $color-white;
+      text-decoration: none;
       text-transform: uppercase;
+
+      text-align: left;
+      letter-spacing: 3px;
+      color: $color-white;
+      text-transform: uppercase;
+      opacity: 0.8;
+
+      &:hover {
+        color: $color-caramel-yellow;
+        transform: scale(1.1);
+      }
     }
   }
 
   &__networks {
-    position: absolute;
-    left: 0;
-    top: 40%;
-    width: 100px;
-    height: 500px;
-    
+    margin-top: 40px;
     display: flex;
-    flex-direction: column;
-    gap: 14px;
+    width: 150px;
+    gap: 15px;
 
     &--link {
       display: flex;
-      height: 80px;
-      width: 80px;
+      height: 40px;
+      width: 40px;
 
-      background-position: right;
+      background-color: $color-white;
+      border-radius: 50%;
+      background-position: center;
       background-repeat: no-repeat;
 
       &:hover {
-        transform: scale(1.08);
+        transform: scale(1.1);
       }
     }
 
-    &--x {
-      background-image: url("../../images/icons/x-com.svg");
+    &--twitter {
+      fill: #000000;
+      background-image: url("../../images/icons/twitter-footer.svg");
     }
 
-    &--telegram {
-      background-image: url("../../images/icons/telegram.svg");
+    &--instagram {
+      background-image: url("../../images/icons/instagram-footer.svg");
     }
 
     &--facebook {
-      background-image: url("../../images/icons/facebook.svg");
+      background-image: url("../../images/icons/facebook-footer.svg");
     }
+  }
+
+  &__container {
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+
+    &::before {
+      content: "";
+      position: absolute;
+      top: 150%;
+      left: 0;
+      width: 100%;
+      height: 1px;
+      background-color: #FFFFFF;
+    }
+  }
+
+  &__title {
+    margin: 48px auto 0;
+    width: 368px;
+
+    text-align: center;
+    letter-spacing: 0px;
+    color: $color-white;
+    opacity: 0.5;
   }
 }

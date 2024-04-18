@@ -1,15 +1,9 @@
 export {
   banners,
   navigation,
-  footerCompanyLinks,
-  footerSupportLinks,
-  footerWindowLinks,
+  footerAboutLinks,
+  footerInfoLinks,
+  footerServiceLinks,
   networks,
-  ourWorks,
-  reviews,
-  services,
-  doors,
-  windowsService,
+  faq,
 } from "./config"
-
-export { scrollToTop } from "./scrollToTop"

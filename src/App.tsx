@@ -1,6 +1,6 @@
 import React from 'react';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import { Home, NotFound, Services } from './pages';
+import { Home, NotFound } from './pages';
 
 function App() {
   return (
@@ -8,7 +8,6 @@ function App() {
 
       <Routes>
         <Route path="/windows-world" element={(<Home />)} />
-        <Route path="/windows-world/services" element={(<Services />)} />
 
         <Route path="*" element={<NotFound />} />
       </Routes>

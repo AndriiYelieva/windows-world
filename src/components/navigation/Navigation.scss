@@ -1,93 +1,109 @@
 @import "../../styles/main.scss";
 
-.nav {
-  position: absolute;
-  z-index: 10;
-  width: 100%;
-}
-
-.logo {
-  margin: 58px 0 0 120px;
-  display: flex;
-  gap: 14px;
-
-  font-family: 'Century Gothic', sans-serif;
-  font-weight: 400;
-
-  &__link {
-    height: 64px;
-    width: 64px;
-
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-image: url("../../images/photos/logo.png");
-
-    &:hover {
-      transform: scale(1.1);
-    }
-  }
-
-  &__wrapper {
-    &--title {
-      color: $color-blue;
-      font-size: 32px;
-      font-weight: 400;
-      line-height: 39px;
-      letter-spacing: 0em;
-      text-align: left;
-      text-decoration: none;
-    }
-
-    &--text {
-      color: $color-blue-2;
-      font-size: 18px;
-      font-weight: 700;
-      line-height: 22px;
-      letter-spacing: 0em;
-      text-align: left;
-      text-decoration: none;
-    }
-
-    &--service {
-      color: $color-white;
-    }
-  }
-}
-
 .navigation {
-  margin-top: 24px;
+  position: absolute;
+  margin-top: 30px;
+  left: 50%;
+  transform: translate(-50%, 0%);
+
   display: flex;
   align-items: center;
-  justify-content: center;
-  gap: 44px;
+  justify-content: space-between;
+  z-index: 3;
 
-  height: 50px;
-  background-color: $color-white;
+  width: 1300px;
+  height: 80px;
+  background-color: transparent;
+
+  border-bottom: 1px solid $color-white;
 
   &__link {
-    height: 55px;
-    padding: 0 10px;
+    height: 80px;
     display: flex;
     align-items: center;
 
-    color: $color-blue;
+    color: $color-white;
     font-size: 18px;
     font-weight: 400;
     line-height: 22px;
     letter-spacing: 0em;
     text-align: left;
     text-decoration: none;
+    text-transform: uppercase;
 
     &:hover {
-      color: $color-white;
-      background-color: $color-blue;
+      color: $color-caramel-yellow;
     }
 
-    &--active {
-      font-weight: 700;
+    &--logo {
+      width: 84px;
+      height: 34px;
+      margin: 0 120px;
+
+      background-image: url(../../images/icons/logo.svg);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+
+      &:hover {
+        transform: scale(1.1);
+      }
     }
   }
 
+  &__networks {
+    display: flex;
+    justify-content: center;
+    width: 70px;
+    gap: 8px;
 
+    &--link {
+      display: flex;
+      width: 16px;
+      height: 16px;
+      fill: $color-white;
+
+      background-position: right;
+      background-repeat: no-repeat;
+      background-size: cover;
+
+      &:hover {
+        transform: scale(2);
+      }
+    }
+
+    &--twitter {
+      background-image: url("../../images/icons/twitter.svg");
+    }
+
+    &--instagram {
+      background-image: url("../../images/icons/instagram.svg");
+    }
+
+    &--facebook {
+      background-image: url("../../images/icons/facebook.svg");
+    }
+  }
+
+  &__order {
+    width: 192px;
+    height: 50px;
+
+    padding: 16px 50px 16px 30px;
+    color: $color-white;
+    background-color: transparent;
+
+    border: 1px solid #FFFFFF;
+    border-radius: 25px;
+
+    background-image: url("../../images/icons/shopping-cart.svg");
+    background-repeat: no-repeat;
+    background-position: 75%;
+    
+    &:hover {
+      color: $color-caramel-yellow;
+      border-color: $color-caramel-yellow;
+      background-image: url("../../images/icons/shopping-cart-hover.svg");
+    }
+  }
 }

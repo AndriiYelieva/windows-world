@@ -1,3 +1,8 @@
-<svg width="16" height="28" viewBox="0 0 16 28" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M1 1L14 14L1 27" stroke="#071272" stroke-width="2"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="70.711" height="70.711" viewBox="0 0 70.711 70.711">
+  <defs>
+    <style>.a{fill:#d4b254;}</style>
+  </defs>
+  <path class="a"
+    d="M0,49V1A1,1,0,0,0-1,0H-49a1,1,0,0,0-1,1,1,1,0,0,0,1,1H-2V49a1,1,0,0,0,1,1A1,1,0,0,0,0,49Z"
+    transform="translate(70.711 35.356) rotate(45)" />
 </svg>

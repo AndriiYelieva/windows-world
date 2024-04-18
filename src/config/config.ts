@@ -1,26 +1,8 @@
-import home from "../images/photos/header-home.jpg";
-import marketExperience from "../images/photos/market-experience.png";
-import aboutTheGuarantee from "../images/photos/about-the-guarantee.png";
-import wereToBuy from "../images/photos/were-to-buy.png";
-import exteriorDoors from "../images/photos/exterior-doors.png"
-import windows from "../images/photos/windows.png"
-import interiorDoors from "../images/photos/interior-doors.png"
-import panoramaWindow from "../images/photos/panorama-window.png"
-
-import service from "../images/icons/service.svg"
-import company from "../images/icons/company.svg"
-import request from "../images/icons/request.svg"
-import delivery from "../images/icons/delivery.svg"
-
-// import exteriorDoors from "../images/photos/exterior-doors.png";
-// import interiorDoors from "../images/photos/interior-doors-service.png";
-import patioDoors from "../images/photos/patio-doors-service.png";
-
-import futural from "../images/photos/futural.png";
-import whiteDouble from "../images/photos/white-double.png";
-import windowHd from "../images/photos/window-hd.png";
-
-import { ServiceType } from "../types/ServiceType";
+import home from "../images/photos/header-home.png";
+import Bitmap1 from "../images/photos/Bitmap-1.png"
+import Bitmap2 from "../images/photos/Bitmap-2.png"
+import Bitmap3 from "../images/photos/Bitmap-3.png"
+import Bitmap4 from "../images/photos/Bitmap-4.png"
 
 export const banners = [
   {
@@ -38,130 +20,97 @@ export const banners = [
     name: "home",
     image: home,
   },
-  {
-    id: 4,
-    name: "home",
-    image: home,
-  }
 ]
 
 export const navigation = [
   {
     id: 1,
-    title: "Home page",
+    title: "Shop",
+    href: '/windows-world/#shop',
+  },
+  {
+    id: 2,
+    title: "Plan My Kitchen",
+    href: '/windows-world/#plan-kitchen',
+  },
+  {
+    id: 3,
+    title: "logo",
     href: '/windows-world/',
-    isLocation: true,
   },
   {
-    id: 2,
-    title: "About us",
+    id: 4,
+    title: "About Us",
     href: '/windows-world/#about-us',
-    isLocation: false,
-  },
-  {
-    id: 3,
-    title: "Advantages",
-    href: '/windows-world/#advantages',
-    isLocation: false,
-  },
-  {
-    id: 4,
-    title: "Services",
-    href: '/windows-world/services',
-    isLocation: true,
   },
   {
     id: 5,
-    title: "Our work",
-    href: '/windows-world/#our-work',
-    isLocation: false,
-  },
-  {
-    id: 6,
-    title: "Reviews",
-    href: '/windows-world/#reviews',
-    isLocation: false,
-  },
-  {
-    id: 7,
-    title: "Service area",
-    href: '/windows-world/#service-area',
-    isLocation: false,
-  },
-  {
-    id: 8,
-    title: "Contact us",
-    href: '/windows-world/#contact-us',
-    isLocation: false,
+    title: "Gallery",
+    href: '/windows-world/#gallery',
   },
 ]
 
-export const footerWindowLinks = [
+export const footerAboutLinks = [
   {
     id: 1,
-    title: "WINDOWS & DOORS",
-    href: null,
+    title: "Shop",
+    href: "shop",
   },
   {
     id: 2,
-    title: "Windows",
-    href: "windows",
+    title: "Plan My Kitchen",
+    href: "plan-my-kitchen",
   },
   {
     id: 3,
-    title: "Exterior Doors",
-    href: "exterior-doors",
+    title: "About us",
+    href: "about-us",
   },
   {
     id: 4,
-    title: "Interior Doors",
-    href: "interior-doors",
-  },
-  {
-    id: 5,
-    title: "Patio Doors",
-    href: "patio-doors",
+    title: "Gallery",
+    href: "gallery",
   },
 ]
 
-export const footerCompanyLinks = [
+export const footerServiceLinks = [
   {
     id: 1,
-    title: "OUR COMPANY",
-    href: null,
+    title: "FAQ",
+    href: "faq",
   },
   {
     id: 2,
-    title: "about us",
+    title: "contact",
     href: "about-us",
   },
   {
     id: 3,
-    title: "advantages",
-    href: "advantages",
+    title: "How to Buy",
+    href: "how-to-buy",
   },
   {
     id: 4,
-    title: "our work",
-    href: "our-work",
+    title: "downloads",
+    href: "downloads",
   },
 ]
 
-export const footerSupportLinks = [
+export const footerInfoLinks = [
   {
     id: 1,
-    title: "SUPPORT",
-    href: null,
+    title: "Delivery",
+    href: "delivery",
   },
   {
     id: 2,
-    title: "Support opions",
-    href: "support-opions",
+    title: "Terms",
+    href: "terms",
   },
   {
     id: 3,
-    title: "Help on your projec",
-    href: "help on your projec",
+    title: "Privacy",
+    href: "privacy",
   },
 ]
 
@@ -173,162 +122,56 @@ export const networks = [
   },
   {
     id: 2,
-    title: "telegram",
-    href: "https://web.telegram.org/",
+    title: "twitter",
+    href: "https://twitter.com/",
   },
   {
     id: 3,
-    title: "x",
-    href: "https://twitter.com/",
+    title: "instagram",
+    href: "https://www.instagram.com/",
   }
 ]
 
-export const ourWorks = [
+export const faq = [
   {
     id: 1,
-    title: "Market experience",
-    description: "Outstanding performance backed by a 10-Year Limited Warranty.",
-    link: "learn more",
-    href: "",
-    image: marketExperience,
+    name: "Jane, Dundee",
+    title: "Over 35 years experience designing handmade kitchens",
+    description: "Since my first contact I have received a very high level of customer service and advice with my kitchen plans. Ben responded very quickly to all of my emails and delivery of the kitchen was as planned.",
   },
   {
     id: 2,
-    title: "About the guarantee",
-    description: "We provide excellent quality and a multi-year warranty.",
-    link: "learn more",
-    href: "",
-    image: aboutTheGuarantee,
+    name: "Jane, Jane",
+    title: "Over 35 years experience designing handmade kitchens",
+    description: "The quality is exceptional",
   },
   {
     id: 3,
-    title: "Were to buy",
-    description: "Use the map to find a store near you.",
-    link: "Search",
-    href: "",
-    image: wereToBuy,
-  },
-]
-
-export const reviews = [
-  {
-    id: 1,
-    title: "Carl Lourens",
-    rating: 4,
-    description: "The whole process, from consultation to installation, was seamless. I'm extremely satisfied with my investment and would highly recommend them.",
-  },
-  {
-    id: 2,
-    title: "Carl Lourens",
-    rating: 5,
-    description: "The installation was quick, and now my house feels much more comfortable and energy-efficient. Thank you!",
-  },
-  {
-    id: 3,
-    title: "Carl Lourens",
-    rating: 5,
+    name: "Carl Lourens",
+    title: "Over 35 years experience designing handmade kitchens",
     description: "The quality is exceptional, and the installation process was smooth and efficient.",
   },
 ]
 
-export const services = [
+export const gallery = [
   {
     id: 1,
-    title: "discover our offer",
-    type: null,
-    link: null,
-    photo: null,
+    photo: Bitmap1,
+    alt: 'Bitmap1',
   },
   {
     id: 2,
-    title: "exterior doors",
-    type: ServiceType.door,
-    link: "/windows-world/services",
-    photo: exteriorDoors,
+    photo: Bitmap2,
+    alt: 'Bitmap2',
   },
   {
     id: 3,
-    title: "windows",
-    type: ServiceType.window,
-    link: "/windows-world/services",
-    photo: windows,
+    photo: Bitmap3,
+    alt: 'Bitmap4',
   },
   {
     id: 4,
-    title: "interior doors",
-    type: ServiceType.door,
-    link: "/windows-world/services",
-    photo: interiorDoors,
-  },
-  {
-    id: 5,
-    title: "panorama window",
-    type: ServiceType.window,
-    link: "/windows-world/services",
-    photo: panoramaWindow,
-  },
-  {
-    id: 6,
-    title: [
-      {
-        name: "service",
-        title: "Professional customer service",
-        image: service,
-      },
-      {
-        name: "company",
-        title: "Professional montage company",
-        image: company,
-      },
-      {
-        name: "request",
-        title: "Fast answer on offer request",
-        image: request,
-      },
-      {
-        name: "delivery",
-        title: "Delivery and Warranty",
-        image: delivery,
-      },
-    ],
-    link: null,
-    type: null,
-    photo: null,
-  },
-]
-
-export const doors = [
-  {
-    id: 1,
-    title: "Exterior Doors",
-    image: exteriorDoors,
-  },
-  {
-    id: 2,
-    title: "Interior Doors",
-    image: interiorDoors,
-  },
-  {
-    id: 3,
-    title: "Patio Doors",
-    image: patioDoors,
-  },
-]
-
-export const windowsService = [
-  {
-    id: 1,
-    title: "futural",
-    image: futural,
-  },
-  {
-    id: 2,
-    title: "whiteDouble",
-    image: whiteDouble,
-  },
-  {
-    id: 3,
-    title: "windowHd",
-    image: windowHd,
+    photo: Bitmap4,
+    alt: 'Bitmap4',
   },
 ]
